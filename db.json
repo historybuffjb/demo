@@ -1,9 +1,8 @@
 {
   "devices": 
   [
-    {"name": "device1", 
-     "battery": "100", 
-     "version": "1.0.0", 
+    {
+      "settings": [
      "port": "5700", 
      "sharedvnc": "always",
      "keepconnected": "true",
@@ -31,11 +30,17 @@
      "windoww": "500",
      "windowh": "500",
      "zeroconfenabled": "false",
-     "otheroptions": ""
+     "otheroptions": ""],
+      "deviceinfo": [
+        "automationstatus": "on",
+        "pid": "10",
+        "version": "1.0.0",
+        "battery": "100",
+        "name": "name1"
+        ]
     },
-    {"name": "device2", 
-     "battery": "100", 
-     "version": "2.0.0", 
+        {
+      "settings": [
      "port": "5800", 
      "sharedvnc": "always",
      "keepconnected": "true",
@@ -57,17 +62,23 @@
      "localscreenshots": "false",
      "savelogs": "true",
      "launchwebdriver": "true",
-     "webdriverport": "8888",
+     "webdriverport": "33308",
      "windowx": "20",
      "windowy": "20",
      "windoww": "500",
      "windowh": "500",
      "zeroconfenabled": "false",
-     "otheroptions": ""
+     "otheroptions": ""],
+      "deviceinfo": [
+        "automationstatus": "off",
+        "pid": "11",
+        "version": "1.0.0",
+        "battery": "78",
+        "name": "name2"
+        ]
     },
-    {"name": "device3", 
-     "battery": "100", 
-     "version": "3.0.0", 
+      {
+      "settings": [
      "port": "5900", 
      "sharedvnc": "always",
      "keepconnected": "true",
@@ -80,8 +91,8 @@
      "enablerotation": "true",
      "portablemouse": "false",
      "traceall": "true",
-     "minesport": "8000",
-     "maxesport": "8050",
+     "minesport": "7000",
+     "maxesport": "7050",
      "blend": "false",
      "maxfps": "5.0",
      "autoreboot": "false",
@@ -89,12 +100,19 @@
      "localscreenshots": "false",
      "savelogs": "true",
      "launchwebdriver": "true",
-     "webdriverport": "9999",
+     "webdriverport": "33309",
      "windowx": "20",
      "windowy": "20",
      "windoww": "500",
      "windowh": "500",
      "zeroconfenabled": "false",
-     "otheroptions": ""
-    }]
+     "otheroptions": ""],
+      "deviceinfo": [
+        "automationstatus": "on",
+        "pid": "12",
+        "version": "1.0.0",
+        "battery": "22",
+        "name": "name3"
+        ]
+    },
 }
